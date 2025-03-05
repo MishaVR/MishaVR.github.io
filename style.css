@@ -1,0 +1,162 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+    background: #34495e;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 1.8em;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+article p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+}
+#contacts {
+    margin-top: 40px;
+}
+
+#contacts h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contacts article {
+    margin-bottom: 30px;
+}
+
+#contacts form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#contacts form input, 
+#contacts form textarea {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contacts form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacts form button:hover {
+    background-color: #2980b9;
+}
+
+#contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacts ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#contacts ul li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#contacts ul li a:hover {
+    text-decoration: underline;
+}
