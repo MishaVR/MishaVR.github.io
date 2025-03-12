@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+Allow: /
+
+# Для Google
+User-agent: Googlebot
+Allow: /
+
+# ДляЯндекса
+User-agent: Yandex
+Allow: /
+
+# Указываем путь к карте сайта
+Sitemap: https://example.com/sitemap.xml
+
+# Указываем, где находится файл проверки прав для Яндекс.Вебмастер и GoogleSearchConsole
+Host: https://example.com
